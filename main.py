@@ -1,16 +1,10 @@
-# This is a sample Python script.
+# making mablibs
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+adj1 = input("Adjective: ")
+adj2 = input("Adjective: ")
+verb1_with_ing = input("Verb ending with -ing: ")
 
+madlib = f"Burgers are so {adj1}! They are so juicy and {adj2}. What I like most about burgers is that people" \
+         f"are always {verb1_with_ing} with them."
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+print(madlib)
